@@ -1,0 +1,103 @@
+body {
+    background-color: #C0C0C0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 45%;
+    width: 130px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 500px;
+}
+
+#email,#whats,#telegram {
+    border-radius: 8px;
+    width: 200px;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: #DCDCDC;
+}
+
+#email:hover, #telegram:hover, #whats:hover {
+    background-color: rgb(255, 255, 255, 2);
+    cursor: pointer;
+    transition: 1s;
+}
+
+p {
+    margin-top: 0%;
+    text-align: center;
+}
+
+#icones {
+    display: flex;
+    gap: 32px;
+    font-size: 24px;
+    padding: 24px 0;
+}
+
+#git, #youtube, #linkedin, #insta {
+    color: black;
+    border-radius: 50%;
+}
+
+#git:hover, #youtube:hover, #linkedin:hover, #insta:hover {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    margin-top: 520px;
+    gap: 30px;
+}
+
+#sobremim {
+    width: 350px;
+    border-radius: 8px;
+    background-color: #DCDCDC;
+    padding: 15px;
+}
+
+#metas{
+    width: 350px;
+    border-radius: 8px;
+    background-color: #DCDCDC;
+    padding: 15px;
+}
+
+#trabalho {
+    width: 350px;
+    border-radius: 8px;
+    background-color: #DCDCDC;
+    padding: 15px;
+}
+
+#tituloM, #tituloS, #tituloT {
+    text-align: center;
+}
+
+#textoS, #textoM, #textoT {
+    text-align: justify;
+}
+
+#metas:hover, #sobremim:hover, #trabalho:hover {
+    transition: 1s;
+    background-color: white;
+}
